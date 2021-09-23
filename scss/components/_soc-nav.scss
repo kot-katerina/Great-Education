@@ -1,0 +1,49 @@
+.soc-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+}
+
+.soc-list {
+    padding: 0;
+    width: 100%;
+}
+
+.soc-item {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    background-color: $col__titles;
+    transform: rotate(45deg);
+    border-radius: 6px;
+    position: relative;
+}
+
+.soc-item:hover {
+    background-color: $col__links;
+}
+
+.soc-link {
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.soc-img {
+    width: 20px;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.soc-item__footer {
+    background-color: $col__links;
+}
+
+.soc-item__footer:hover {
+    background-color: $col__decor;
+}

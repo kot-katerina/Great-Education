@@ -1,0 +1,15 @@
+@mixin  text ($ff, $fst, $fw, $fsz, $lh, $col) {
+    font-family: $ff;
+    font-style: $fst;
+    font-weight: $fw;
+    font-size: $fsz;
+    line-height: $lh;
+    color: $col;
+}
+
+@mixin button ($wid,$hei, $rad, $grad) {
+    width: $wid;
+    height: $hei;
+    border-radius: $rad;
+    background-image: $grad;
+}

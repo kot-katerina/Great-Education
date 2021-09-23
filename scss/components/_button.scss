@@ -1,0 +1,49 @@
+//кнопка обратной связи и кабинет
+
+.button {
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    border-top-left-radius: 20px 20px;   
+    border-bottom-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;   
+    border-bottom-right-radius: 20px 20px;
+    border: 2px solid $col__text;
+    @include text ($ff_titles, normal, bold, 16px, none,$col__titles)
+}
+
+.button:hover {
+    background-color: $col__decor;
+    color: white;
+}
+
+.btn_autorization:hover {
+    background-color: $col__links;
+    color: $col__titles;
+}
+
+//кнопка для слабовидящих
+
+.btn__large-size {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 2px solid $col__titles;
+    background-color: transparent;
+}
+
+.btn__large-size:hover {
+    background-color: $col__links;
+}
+
+//кнопка подписки на рассылку
+
+.btn_email {
+    width: 180px;
+    height: 45px;
+    margin-top: 25px;
+    background-color: $col__links;
+    color: $col__titles;
+}
+

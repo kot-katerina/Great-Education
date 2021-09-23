@@ -1,0 +1,33 @@
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(0);
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+
+.logo {
+    width: 200px;
+    height: 200px;
+    animation: jump 1s ease-out  1 normal forwards;
+}
+
+.logo_header {
+    margin: 20px;
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+}

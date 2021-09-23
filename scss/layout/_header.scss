@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contacts__text {
+    margin-top: 10px;
+    margin-bottom: 0;
+    @include text ($ff_text, normal, 600, 16px, none, $col__titles);
+}
+
+.navigation__header {
+    height: 50px;
+}
+
+.buttons__cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.cover__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+}
+
+.cover_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60px;
+}
